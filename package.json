@@ -11,8 +11,10 @@
     "seed": "ts-node src/seed/seed-database.ts"
   },
   "dependencies": {
+    "@neondatabase/serverless": "^1.0.0",
     "@paypal/react-paypal-js": "^8.8.2",
     "@prisma/client": "^6.6.0",
+    "@supabase/supabase-js": "^2.49.4",
     "bcryptjs": "^3.0.2",
     "cloudinary": "^2.6.0",
     "clsx": "^2.1.1",
